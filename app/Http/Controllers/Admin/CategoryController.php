@@ -49,7 +49,6 @@ class CategoryController extends Controller
 
         return to_route('admin.categories.index')->with('success', 'Category created successfully.');
     }
-
     /**
      * Display the specified resource.
      *
